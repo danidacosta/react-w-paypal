@@ -1,0 +1,88 @@
+@font-face{
+  font-family: 'Kenyan';
+  font-style: normal;
+  src: url('./assets/kenyancoffeerg.ttf');
+}
+
+.App {
+  text-align: center;
+  background-color: black;
+}
+
+.App-logo {
+  animation: App-logo-flas infinite 8s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.LoginData{
+  align-content: left;
+}
+
+.App-header {
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: whitesmoke;
+  opacity: 0.5;
+  font-family: 'Kenyan';
+  text-align: left;
+}
+
+.Buttons{
+  text-align: center;
+}
+
+.LoginInput {
+  margin-left: 5px;
+  margin-bottom: 5px;
+  font-family: 'Kenyan';
+}
+
+.Camp{
+  align-self: left;
+}
+
+
+.Login{
+  color: whitesmoke;
+}
+
+.LoginButton{
+  margin: 1%;
+  color: whitesmoke;
+  background-color: black;
+  border: 1px solid;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: 'Kenyan';
+}
+
+.LoginButton:hover{
+  background-color: red;
+  color: black;
+}
+
+.LoginButton:active{
+  background-color: black;
+  color: whitesmoke;
+  transition: width 2s;
+}
+
+.LoginData{
+  margin: 2%;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-flas {
+  25% { opacity: .1; } 
+  50% { opacity: .5; } 
+	100% { opacity: 1; }
+}

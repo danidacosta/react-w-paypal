@@ -4,24 +4,64 @@
   src: url('./assets/kenyancoffeerg.ttf');
 }
 
+
+
 .App {
-  text-align: center;
   background-color: black;
+  min-height: 100vh;
+  position: relative;
 }
 
 .App-logo {
   animation: App-logo-flas infinite 8s linear;
   height: 40vmin;
   pointer-events: none;
+  text-decoration: underline overline;
 }
 
 .LoginData{
   align-content: left;
+  
+  margin-left: 5%
+}
+
+.Secretary{
+  position: absolute;
+  background-image: url("./assets/Kalina.png");
+  width: 100vw;
+  height: 100vh;
+  background-size: 20% 100%;
+  background-repeat: no-repeat;
+}
+
+.Items{
+  position: absolute;
+  color: whitesmoke;
+  width: 100vw;
+  height: 100vh;
+  font-size: calc(10px + 2vmin);
+  margin-left: 25%;
+  font-family: 'Kenyan';
+}
+
+/*@media only screen and (max-width: 600px) {
+  .Secretary{
+    position: absolute;
+    background-image: url("./assets/Kalina.png");
+    width: 100vw;
+    height: 100vh;
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+  }
+}*/
+
+.Img-Background{
+  position: absolute;
+
 }
 
 .App-header {
   background-color: black;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;

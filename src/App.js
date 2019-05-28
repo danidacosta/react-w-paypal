@@ -19,11 +19,13 @@ function ToMainScreen(){
 
 function MainScreen(){
   return(
-    <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+      <div className="App">
+          <div className="Secretary">
             
-        </header>
+          </div>
+          <div className="Items">
+              Welcome to the HQ Commander
+          </div>
       </div>
     );
 }

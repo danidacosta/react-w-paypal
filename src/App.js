@@ -23,8 +23,8 @@ function MainScreen(){
           <div className="Secretary">
             
           </div>
-          <div className="Items">
-              Welcome to the HQ Commander
+          <div className="Items"> 
+          Hello There!
           </div>
       </div>
     );

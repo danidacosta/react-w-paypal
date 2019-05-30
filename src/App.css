@@ -9,6 +9,7 @@
 .App {
   background-color: black;
   min-height: 100vh;
+  min-width: 100vw;    
   position: relative;
 }
 
@@ -37,9 +38,10 @@
 .Items{
   position: absolute;
   color: whitesmoke;
-  width: 100vw;
-  height: 100vh;
   font-size: calc(10px + 2vmin);
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-right: 5%;
   margin-left: 25%;
   font-family: 'Kenyan';
 }
